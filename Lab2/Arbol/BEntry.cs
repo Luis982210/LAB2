@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Lab2.Arbol
 {
+    //constructores
     public class BEntry<TKey, T> : IEquatable<BEntry<TKey, T>>, IEntry<TKey, T>
     {
         public TKey LLave { get; set; }

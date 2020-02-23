@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Lab2.Models
 {
+    //constructor de gaseosas
     public class Gaseosa: IComparable<Gaseosa>
     {
         public string Nombre { get; set; }

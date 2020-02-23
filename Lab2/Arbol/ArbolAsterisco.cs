@@ -144,7 +144,7 @@ namespace Lab2.Arbol
         {
             NodoAsteriscoo<TKey, T> NodoHijo = NodoPadre.Hijos[IndiceSuArbolAsterisco];
 
-
+            //para que no se creen mas hojas sin que sirvan
             if (NodoHijo.AlcanzaMinimaEntrada)
             {
                 int indiceIzquierdo = IndiceSuArbolAsterisco - 1;
@@ -276,6 +276,8 @@ namespace Lab2.Arbol
             return this.EliminarPredecesor(nodo.Hijos.First());
         }
 
+
+        // cuando el nodo se llena y se crean dos hijos
         private void DividirHijo(NodoAsteriscoo<TKey, T> padreNodo, int nodoCorrer, NodoAsteriscoo<TKey, T> nodoMover)
         {
 

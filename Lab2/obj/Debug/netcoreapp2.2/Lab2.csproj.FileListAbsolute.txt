@@ -14,3 +14,19 @@ C:\Users\DISTELSA\Desktop\Lab2\Lab2\obj\Debug\netcoreapp2.2\Lab2.AssemblyInfo.cs
 C:\Users\DISTELSA\Desktop\Lab2\Lab2\obj\Debug\netcoreapp2.2\Lab2.RazorTargetAssemblyInfo.cache
 C:\Users\DISTELSA\Desktop\Lab2\Lab2\obj\Debug\netcoreapp2.2\Lab2.dll
 C:\Users\DISTELSA\Desktop\Lab2\Lab2\obj\Debug\netcoreapp2.2\Lab2.pdb
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\bin\Debug\netcoreapp2.2\Lab2.deps.json
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\bin\Debug\netcoreapp2.2\Lab2.runtimeconfig.json
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\bin\Debug\netcoreapp2.2\Lab2.runtimeconfig.dev.json
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\bin\Debug\netcoreapp2.2\Lab2.dll
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\bin\Debug\netcoreapp2.2\Lab2.pdb
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\obj\Debug\netcoreapp2.2\Lab2.csprojAssemblyReference.cache
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\obj\Debug\netcoreapp2.2\Lab2.RazorAssemblyInfo.cache
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\obj\Debug\netcoreapp2.2\Lab2.RazorAssemblyInfo.cs
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\obj\Debug\netcoreapp2.2\Lab2.AssemblyInfoInputs.cache
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\obj\Debug\netcoreapp2.2\Lab2.AssemblyInfo.cs
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\obj\Debug\netcoreapp2.2\Lab2.RazorTargetAssemblyInfo.cache
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\obj\Debug\netcoreapp2.2\Lab2.dll
+C:\Users\Luis Escobar\Desktop\LAB2ESTRUCTURAS\LAB2\Lab2\obj\Debug\netcoreapp2.2\Lab2.pdb

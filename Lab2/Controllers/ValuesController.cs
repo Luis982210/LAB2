@@ -35,6 +35,7 @@ namespace Lab2.Controllers
             write(gas);
             return gas;
         }
+        //escritura y lectura en disco
         private HttpResponseMessage write(Gaseosa elementeo)
         {
             HttpResponseMessage result = null;

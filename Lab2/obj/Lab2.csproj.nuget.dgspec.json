@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DISTELSA\\Desktop\\Lab2\\Lab2\\Lab2.csproj": {}
+    "C:\\Users\\Luis Escobar\\Desktop\\LAB2ESTRUCTURAS\\LAB2\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DISTELSA\\Desktop\\Lab2\\Lab2\\Lab2.csproj": {
+    "C:\\Users\\Luis Escobar\\Desktop\\LAB2ESTRUCTURAS\\LAB2\\Lab2\\Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DISTELSA\\Desktop\\Lab2\\Lab2\\Lab2.csproj",
+        "projectUniqueName": "C:\\Users\\Luis Escobar\\Desktop\\LAB2ESTRUCTURAS\\LAB2\\Lab2\\Lab2.csproj",
         "projectName": "Lab2",
-        "projectPath": "C:\\Users\\DISTELSA\\Desktop\\Lab2\\Lab2\\Lab2.csproj",
-        "packagesPath": "C:\\Users\\DISTELSA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DISTELSA\\Desktop\\Lab2\\Lab2\\obj\\",
+        "projectPath": "C:\\Users\\Luis Escobar\\Desktop\\LAB2ESTRUCTURAS\\LAB2\\Lab2\\Lab2.csproj",
+        "packagesPath": "C:\\Users\\Luis Escobar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luis Escobar\\Desktop\\LAB2ESTRUCTURAS\\LAB2\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DISTELSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Luis Escobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"

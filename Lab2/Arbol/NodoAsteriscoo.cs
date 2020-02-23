@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Lab2.Arbol
 {
+    //creacion del nodo con todos sus atributos
     public class NodoAsteriscoo<TKey, T>
     {
 
@@ -20,7 +21,7 @@ namespace Lab2.Arbol
         public List<NodoAsteriscoo<TKey, T>> Hijos { get; set; }
 
         public List<BEntry<TKey, T>> Entradas { get; set; }
-
+        //nos dice que es hoja o no
         public bool EsHoja
         {
             get
@@ -28,7 +29,7 @@ namespace Lab2.Arbol
                 return this.Hijos.Count == 0;
             }
         }
-
+        //entrada maxima
         public bool AlcanzaMaximaEntrada
         {
             get

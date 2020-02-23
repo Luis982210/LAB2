@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab2.Models
 {
+    //model de gaseosa
     public class GaseosaSettings : IGaseosaSettings
     {
         public ArbolAsterisco<string, Gaseosa> arbol { get; set; }
