@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\migue\\Desktop\\Lab2\\Lab2\\Lab2.csproj",
+      "projectUniqueName": "C:\\Users\\migue\\Desktop\\LABO2\\LAB2\\Lab2\\Lab2.csproj",
       "projectName": "Lab2",
-      "projectPath": "C:\\Users\\migue\\Desktop\\Lab2\\Lab2\\Lab2.csproj",
+      "projectPath": "C:\\Users\\migue\\Desktop\\LABO2\\LAB2\\Lab2\\Lab2.csproj",
       "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\migue\\Desktop\\Lab2\\Lab2\\obj\\",
+      "outputPath": "C:\\Users\\migue\\Desktop\\LABO2\\LAB2\\Lab2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
