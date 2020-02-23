@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
+using System.Web.Http;
 using System.Threading.Tasks;
 using Lab2.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -30,22 +32,31 @@ namespace Lab2.Controllers
         public ActionResult<Gaseosa> Create(Gaseosa gas)
         {            
             _agua.Create(gas);
-            Disck (gas);
+            write(gas);
             return gas;
         }
-        private void Disck(Gaseosa elementeo)
+        private HttpResponseMessage write(Gaseosa elementeo)
         {
+            HttpResponseMessage result = null;
+            
             var jsonPatientList = JsonConvert.SerializeObject(elementeo);
             string path = Path.Combine(Directory.GetCurrentDirectory(), "GaseosasData/");
             if (!Directory.Exists(path))
-                Directory.CreateDirectory(path);
-            var UploadedFile = Request.Form.Files[0];
-            if (UploadedFile!=null)
+                Directory.CreateDirectory(path);            
+            if (elementeo != null)
             {
                 string ServerDirectory = Directory.GetCurrentDirectory();
                 string UpFilesDirectoryPath = Path.Combine(ServerDirectory, "GaseosasData/");
-                string WServerPath = UpFilesDirectoryPath + Path.GetFileName(UploadedFile.FileName.Replace(".txt", "ZigZagEncoded.txt"));
+                string WServerPath = UpFilesDirectoryPath + Path.GetFileName(elementeo.Nombre+elementeo.Volumen+".txt");
+                using (var file = new FileStream(WServerPath, FileMode.OpenOrCreate))
+                {
+                    using (var writer = new BinaryWriter(file))
+                    {                       
+                        writer.Write(jsonPatientList);                        
+                    }
+                }
             }
+            return result;
         }
     }
 }
